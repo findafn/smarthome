@@ -1,0 +1,22 @@
+AC              a+s a-s+e s-e sp sp
+SENT-END        sil
+SENT-START      sil
+buka            b+u b-u+k u-k+a k-a sp sp
+dapur           d+a d-a+p a-p+u p-u+r u-r sp sp
+garasi          g+a g-a+r a-r+a r-a+s a-s+i s-i sp sp
+jendela         j+@ j-@+n @-n+d n-d+e d-e+l e-l+a l-a sp sp
+kamar           k+a k-a+m a-m+a m-a+r a-r sp sp
+kunci           k+u k-u+n u-n+c n-c+i c-i sp sp
+lampu           l+a l-a+m a-m+p m-p+u p-u sp sp
+mandi           m+a m-a+n a-n+d n-d+i d-i sp sp
+matikan         m+a m-a+t a-t+i t-i+k i-k+a k-a+n a-n sp sp
+naikkan         n+a n-a+i a-i+k i-k+k k-k+a k-a+n a-n sp sp
+nyalakan        ny+a ny-a+l a-l+a l-a+k a-k+a k-a+n a-n sp sp
+pintu           p+i p-i+n i-n+t n-t+u t-u sp sp
+ruang           r+u r-u+a u-a+ng a-ng sp sp
+suhu            s+u s-u+h u-h+u h-u sp sp
+tamu            t+a t-a+m a-m+u m-u sp sp
+tidur           t+i t-i+d i-d+u d-u+r u-r sp sp
+tirai           t+i t-i+r i-r+a r-a+i a-i sp sp
+turunkan        t+u t-u+r u-r+u r-u+n u-n+k n-k+a k-a+n a-n sp sp
+tutup           t+u t-u+t u-t+u t-u+p u-p sp sp

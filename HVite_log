@@ -1,0 +1,589 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I data/words.mlf -S scp/train.scp dictionary.txt data/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 23 physical / 23 logical HMMs
+Label file will be used to align each file
+Aligning File: mfcc/S0722.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [118 frames] -57.6160 [Ac=-6798.7 LM=0.0] (Act=5.8)
+Aligning File: mfcc/S0211.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar tidur SENT-END  ==  [166 frames] -62.7101 [Ac=-10409.9 LM=0.0] (Act=10.1)
+Aligning File: mfcc/S0717.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [109 frames] -59.0810 [Ac=-6439.8 LM=0.0] (Act=8.2)
+Aligning File: mfcc/S0317.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [122 frames] -58.0278 [Ac=-7079.4 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0617.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [125 frames] -54.3759 [Ac=-6797.0 LM=0.0] (Act=8.4)
+Aligning File: mfcc/S0220.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [127 frames] -62.1214 [Ac=-7889.4 LM=0.0] (Act=10.8)
+Aligning File: mfcc/S0815.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan AC SENT-END  ==  [117 frames] -59.2085 [Ac=-6927.4 LM=0.0] (Act=8.3)
+Aligning File: mfcc/S0302.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [100 frames] -57.0021 [Ac=-5700.2 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0208.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup tirai SENT-END  ==  [110 frames] -60.3716 [Ac=-6640.9 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0616.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [153 frames] -57.8834 [Ac=-8856.2 LM=0.0] (Act=6.4)
+Aligning File: mfcc/S0416.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [103 frames] -64.6153 [Ac=-6655.4 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0420.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [121 frames] -60.2355 [Ac=-7288.5 LM=0.0] (Act=10.1)
+Aligning File: mfcc/S0903.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [120 frames] -59.5073 [Ac=-7140.9 LM=0.0] (Act=6.9)
+Aligning File: mfcc/S0413.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [116 frames] -62.0532 [Ac=-7198.2 LM=0.0] (Act=9.9)
+Aligning File: mfcc/S0316.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [138 frames] -60.1442 [Ac=-8299.9 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0703.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [109 frames] -56.1816 [Ac=-6123.8 LM=0.0] (Act=7.2)
+Aligning File: mfcc/S0101.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [98 frames] -59.1501 [Ac=-5796.7 LM=0.0] (Act=7.5)
+Aligning File: mfcc/S0221.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu ruang tamu SENT-END  ==  [163 frames] -61.9976 [Ac=-10105.6 LM=0.0] (Act=11.8)
+Aligning File: mfcc/S0823.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [151 frames] -58.8093 [Ac=-8880.2 LM=0.0] (Act=7.1)
+Aligning File: mfcc/S0910.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [145 frames] -58.5076 [Ac=-8483.6 LM=0.0] (Act=8.5)
+Aligning File: mfcc/S0721.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu ruang tamu SENT-END  ==  [147 frames] -59.5132 [Ac=-8748.4 LM=0.0] (Act=11.9)
+Aligning File: mfcc/S0110.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [118 frames] -55.3717 [Ac=-6533.9 LM=0.0] (Act=9.7)
+Aligning File: mfcc/S0418.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar tidur SENT-END  ==  [137 frames] -61.2146 [Ac=-8386.4 LM=0.0] (Act=9.0)
+Aligning File: mfcc/S0620.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [149 frames] -56.8420 [Ac=-8469.5 LM=0.0] (Act=8.3)
+Aligning File: mfcc/S0923.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [176 frames] -58.2566 [Ac=-10253.2 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0120.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [154 frames] -58.7034 [Ac=-9040.3 LM=0.0] (Act=9.7)
+Aligning File: mfcc/S0419.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [134 frames] -61.5902 [Ac=-8253.1 LM=0.0] (Act=10.9)
+Aligning File: mfcc/S0104.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [102 frames] -60.2272 [Ac=-6143.2 LM=0.0] (Act=8.7)
+Aligning File: mfcc/S0401.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [73 frames] -60.2672 [Ac=-4399.5 LM=0.0] (Act=7.3)
+Aligning File: mfcc/S0204.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [90 frames] -61.8602 [Ac=-5567.4 LM=0.0] (Act=8.5)
+Aligning File: mfcc/S0506.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [82 frames] -60.4037 [Ac=-4953.1 LM=0.0] (Act=9.4)
+Aligning File: mfcc/S0712.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [195 frames] -55.3123 [Ac=-10785.9 LM=0.0] (Act=10.5)
+Aligning File: mfcc/S0811.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar tidur SENT-END  ==  [194 frames] -59.7484 [Ac=-11591.2 LM=0.0] (Act=8.9)
+Aligning File: mfcc/S0308.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup tirai SENT-END  ==  [106 frames] -59.0664 [Ac=-6261.0 LM=0.0] (Act=7.5)
+Aligning File: mfcc/S0820.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [177 frames] -58.6215 [Ac=-10376.0 LM=0.0] (Act=8.2)
+Aligning File: mfcc/S0222.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [107 frames] -61.1300 [Ac=-6540.9 LM=0.0] (Act=6.4)
+Aligning File: mfcc/S0414.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [142 frames] -61.5007 [Ac=-8733.1 LM=0.0] (Act=10.5)
+Aligning File: mfcc/S0905.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [132 frames] -57.2225 [Ac=-7553.4 LM=0.0] (Act=7.2)
+Aligning File: mfcc/S0201.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [110 frames] -58.7500 [Ac=-6462.5 LM=0.0] (Act=6.9)
+Aligning File: mfcc/S0107.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [89 frames] -61.7087 [Ac=-5492.1 LM=0.0] (Act=8.2)
+Aligning File: mfcc/S0607.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [117 frames] -57.8144 [Ac=-6764.3 LM=0.0] (Act=7.5)
+Aligning File: mfcc/S0806.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [104 frames] -58.5666 [Ac=-6090.9 LM=0.0] (Act=7.9)
+Aligning File: mfcc/S0504.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [91 frames] -59.4225 [Ac=-5407.4 LM=0.0] (Act=7.5)
+Aligning File: mfcc/S0809.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [114 frames] -61.4162 [Ac=-7001.5 LM=0.0] (Act=7.3)
+Aligning File: mfcc/S0121.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu ruang tamu SENT-END  ==  [160 frames] -60.1632 [Ac=-9626.1 LM=0.0] (Act=13.5)
+Aligning File: mfcc/S0606.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [125 frames] -56.8234 [Ac=-7102.9 LM=0.0] (Act=8.0)
+Aligning File: mfcc/S0605.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [121 frames] -55.8591 [Ac=-6758.9 LM=0.0] (Act=6.5)
+Aligning File: mfcc/S0501.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [94 frames] -60.2867 [Ac=-5667.0 LM=0.0] (Act=6.9)
+Aligning File: mfcc/S0421.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu ruang tamu SENT-END  ==  [135 frames] -64.8214 [Ac=-8750.9 LM=0.0] (Act=10.0)
+Aligning File: mfcc/S0123.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [150 frames] -60.9049 [Ac=-9135.7 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0321.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu ruang tamu SENT-END  ==  [183 frames] -58.6978 [Ac=-10741.7 LM=0.0] (Act=10.2)
+Aligning File: mfcc/S0512.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [162 frames] -56.6812 [Ac=-9182.4 LM=0.0] (Act=11.4)
+Aligning File: mfcc/S0403.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [71 frames] -63.1862 [Ac=-4486.2 LM=0.0] (Act=6.6)
+Aligning File: mfcc/S0817.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [121 frames] -58.9952 [Ac=-7138.4 LM=0.0] (Act=8.0)
+Aligning File: mfcc/S0503.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [88 frames] -60.3653 [Ac=-5312.1 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0719.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [157 frames] -57.0594 [Ac=-8958.3 LM=0.0] (Act=9.0)
+Aligning File: mfcc/S0217.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [113 frames] -59.5630 [Ac=-6730.6 LM=0.0] (Act=9.0)
+Aligning File: mfcc/S0609.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [117 frames] -58.4979 [Ac=-6844.3 LM=0.0] (Act=7.2)
+Aligning File: mfcc/S0307.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [100 frames] -59.4479 [Ac=-5944.8 LM=0.0] (Act=6.6)
+Aligning File: mfcc/S0118.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar tidur SENT-END  ==  [176 frames] -60.5240 [Ac=-10652.2 LM=0.0] (Act=8.8)
+Aligning File: mfcc/S0115.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan AC SENT-END  ==  [124 frames] -57.6497 [Ac=-7148.6 LM=0.0] (Act=8.3)
+Aligning File: mfcc/S0422.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [78 frames] -62.9348 [Ac=-4908.9 LM=0.0] (Act=5.6)
+Aligning File: mfcc/S0404.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [87 frames] -62.0985 [Ac=-5402.6 LM=0.0] (Act=7.5)
+Aligning File: mfcc/S0216.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [152 frames] -63.1219 [Ac=-9594.5 LM=0.0] (Act=7.0)
+Aligning File: mfcc/S0102.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [98 frames] -57.8739 [Ac=-5671.6 LM=0.0] (Act=7.6)
+Aligning File: mfcc/S0314.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [173 frames] -58.8313 [Ac=-10177.8 LM=0.0] (Act=11.0)
+Aligning File: mfcc/S0106.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [98 frames] -59.3111 [Ac=-5812.5 LM=0.0] (Act=8.3)
+Aligning File: mfcc/S0804.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [121 frames] -59.4872 [Ac=-7198.0 LM=0.0] (Act=8.1)
+Aligning File: mfcc/S0116.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [137 frames] -60.9488 [Ac=-8350.0 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0311.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar tidur SENT-END  ==  [164 frames] -60.5198 [Ac=-9925.2 LM=0.0] (Act=8.9)
+Aligning File: mfcc/S0822.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [141 frames] -56.8173 [Ac=-8011.2 LM=0.0] (Act=6.1)
+Aligning File: mfcc/S0423.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [86 frames] -65.3726 [Ac=-5622.0 LM=0.0] (Act=6.5)
+Aligning File: mfcc/S0509.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [113 frames] -58.4180 [Ac=-6601.2 LM=0.0] (Act=8.0)
+Aligning File: mfcc/S0113.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [166 frames] -58.6242 [Ac=-9731.6 LM=0.0] (Act=10.9)
+Aligning File: mfcc/S0901.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [110 frames] -58.8736 [Ac=-6476.1 LM=0.0] (Act=6.6)
+Aligning File: mfcc/S0709.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [113 frames] -58.0776 [Ac=-6562.8 LM=0.0] (Act=6.9)
+Aligning File: mfcc/S0303.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [100 frames] -57.9055 [Ac=-5790.5 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0114.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [192 frames] -58.5960 [Ac=-11250.4 LM=0.0] (Act=12.8)
+Aligning File: mfcc/S0319.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [173 frames] -59.7882 [Ac=-10343.4 LM=0.0] (Act=8.5)
+Aligning File: mfcc/S0103.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [95 frames] -59.9660 [Ac=-5696.8 LM=0.0] (Act=7.9)
+Aligning File: mfcc/S0906.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [120 frames] -58.6184 [Ac=-7034.2 LM=0.0] (Act=8.4)
+Aligning File: mfcc/S0623.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [149 frames] -59.1788 [Ac=-8817.6 LM=0.0] (Act=7.5)
+Aligning File: mfcc/S0206.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [99 frames] -59.2074 [Ac=-5861.5 LM=0.0] (Act=9.1)
+Aligning File: mfcc/S0615.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan AC SENT-END  ==  [125 frames] -55.1736 [Ac=-6896.7 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0603.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [109 frames] -57.1554 [Ac=-6229.9 LM=0.0] (Act=7.4)
+Aligning File: mfcc/S0407.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [75 frames] -64.0393 [Ac=-4802.9 LM=0.0] (Act=9.1)
+Aligning File: mfcc/S0318.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar tidur SENT-END  ==  [164 frames] -60.2939 [Ac=-9888.2 LM=0.0] (Act=8.5)
+Aligning File: mfcc/S0704.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [113 frames] -56.0552 [Ac=-6334.2 LM=0.0] (Act=7.3)
+Aligning File: mfcc/S0706.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [113 frames] -55.6223 [Ac=-6285.3 LM=0.0] (Act=7.4)
+Aligning File: mfcc/S0513.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [153 frames] -57.9711 [Ac=-8869.6 LM=0.0] (Act=10.0)
+Aligning File: mfcc/S0310.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [129 frames] -57.1733 [Ac=-7375.4 LM=0.0] (Act=7.9)
+Aligning File: mfcc/S0205.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [101 frames] -60.5383 [Ac=-6114.4 LM=0.0] (Act=7.9)
+Aligning File: mfcc/S0223.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [132 frames] -62.2231 [Ac=-8213.5 LM=0.0] (Act=7.1)
+Aligning File: mfcc/S0915.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan AC SENT-END  ==  [145 frames] -57.3716 [Ac=-8318.9 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0814.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [207 frames] -58.6562 [Ac=-12141.8 LM=0.0] (Act=10.7)
+Aligning File: mfcc/S0810.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [141 frames] -55.2905 [Ac=-7796.0 LM=0.0] (Act=8.5)
+Aligning File: mfcc/S0210.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [115 frames] -57.4018 [Ac=-6601.2 LM=0.0] (Act=9.8)
+Aligning File: mfcc/S0214.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [143 frames] -61.5577 [Ac=-8802.7 LM=0.0] (Act=13.5)
+Aligning File: mfcc/S0913.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [163 frames] -59.1268 [Ac=-9637.7 LM=0.0] (Act=8.8)
+Aligning File: mfcc/S0405.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [79 frames] -59.7716 [Ac=-4722.0 LM=0.0] (Act=7.6)
+Aligning File: mfcc/S0518.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar tidur SENT-END  ==  [175 frames] -57.6448 [Ac=-10087.8 LM=0.0] (Act=9.2)
+Aligning File: mfcc/S0402.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [72 frames] -61.6060 [Ac=-4435.6 LM=0.0] (Act=8.3)
+Aligning File: mfcc/S0119.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [166 frames] -60.2273 [Ac=-9997.7 LM=0.0] (Act=11.2)
+Aligning File: mfcc/S0912.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [198 frames] -58.4461 [Ac=-11572.3 LM=0.0] (Act=9.3)
+Aligning File: mfcc/S0904.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [120 frames] -59.1841 [Ac=-7102.1 LM=0.0] (Act=7.9)
+Aligning File: mfcc/S0309.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [113 frames] -59.6935 [Ac=-6745.4 LM=0.0] (Act=6.5)
+Aligning File: mfcc/S0502.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [97 frames] -60.5393 [Ac=-5872.3 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0614.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [192 frames] -54.6129 [Ac=-10485.7 LM=0.0] (Act=10.8)
+Aligning File: mfcc/S0902.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [113 frames] -60.1343 [Ac=-6795.2 LM=0.0] (Act=6.9)
+Aligning File: mfcc/S0622.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [129 frames] -55.8102 [Ac=-7199.5 LM=0.0] (Act=6.0)
+Aligning File: mfcc/S0203.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [99 frames] -60.1902 [Ac=-5958.8 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0207.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [99 frames] -62.3116 [Ac=-6168.8 LM=0.0] (Act=8.7)
+Aligning File: mfcc/S0322.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [103 frames] -59.9526 [Ac=-6175.1 LM=0.0] (Act=5.8)
+Aligning File: mfcc/S0807.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [104 frames] -60.3469 [Ac=-6276.1 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0517.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [110 frames] -58.4332 [Ac=-6427.7 LM=0.0] (Act=8.0)
+Aligning File: mfcc/S0812.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [181 frames] -59.9970 [Ac=-10859.5 LM=0.0] (Act=10.0)
+Aligning File: mfcc/S0313.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [148 frames] -59.3612 [Ac=-8785.5 LM=0.0] (Act=9.3)
+Aligning File: mfcc/S0618.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar tidur SENT-END  ==  [184 frames] -56.8480 [Ac=-10460.0 LM=0.0] (Act=8.3)
+Aligning File: mfcc/S0411.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar tidur SENT-END  ==  [137 frames] -61.4017 [Ac=-8412.0 LM=0.0] (Act=9.2)
+Aligning File: mfcc/S0520.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [147 frames] -60.4847 [Ac=-8891.2 LM=0.0] (Act=10.3)
+Aligning File: mfcc/S0916.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [182 frames] -58.9221 [Ac=-10723.8 LM=0.0] (Act=6.6)
+Aligning File: mfcc/S0415.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan AC SENT-END  ==  [85 frames] -62.3451 [Ac=-5299.3 LM=0.0] (Act=7.4)
+Aligning File: mfcc/S0301.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [84 frames] -62.5028 [Ac=-5250.2 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0410.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [77 frames] -63.1946 [Ac=-4866.0 LM=0.0] (Act=9.7)
+Aligning File: mfcc/S0723.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [162 frames] -56.1436 [Ac=-9095.3 LM=0.0] (Act=6.9)
+Aligning File: mfcc/S0705.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [133 frames] -56.7102 [Ac=-7542.5 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0505.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [91 frames] -59.6661 [Ac=-5429.6 LM=0.0] (Act=7.6)
+Aligning File: mfcc/S0507.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [100 frames] -59.4055 [Ac=-5940.5 LM=0.0] (Act=8.2)
+Aligning File: mfcc/S0602.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [109 frames] -55.9194 [Ac=-6095.2 LM=0.0] (Act=7.4)
+Aligning File: mfcc/S0212.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [155 frames] -61.7716 [Ac=-9574.6 LM=0.0] (Act=11.1)
+Aligning File: mfcc/S0611.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar tidur SENT-END  ==  [169 frames] -56.9417 [Ac=-9623.2 LM=0.0] (Act=9.2)
+Aligning File: mfcc/S0514.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [181 frames] -56.1358 [Ac=-10160.6 LM=0.0] (Act=12.1)
+Aligning File: mfcc/S0707.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [109 frames] -60.0453 [Ac=-6544.9 LM=0.0] (Act=7.4)
+Aligning File: mfcc/S0511.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar tidur SENT-END  ==  [156 frames] -58.9581 [Ac=-9197.5 LM=0.0] (Act=12.1)
+Aligning File: mfcc/S0516.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [147 frames] -60.1539 [Ac=-8842.6 LM=0.0] (Act=7.0)
+Aligning File: mfcc/S0219.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [180 frames] -60.0230 [Ac=-10804.1 LM=0.0] (Act=9.3)
+Aligning File: mfcc/S0914.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu ruang tamu SENT-END  ==  [204 frames] -59.0363 [Ac=-12043.4 LM=0.0] (Act=9.1)
+Aligning File: mfcc/S0801.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [108 frames] -58.5162 [Ac=-6319.8 LM=0.0] (Act=7.2)
+Aligning File: mfcc/S0808.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup tirai SENT-END  ==  [108 frames] -60.1497 [Ac=-6496.2 LM=0.0] (Act=8.6)
+Aligning File: mfcc/S0202.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [87 frames] -61.1231 [Ac=-5317.7 LM=0.0] (Act=7.1)
+Aligning File: mfcc/S0816.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [171 frames] -58.5902 [Ac=-10018.9 LM=0.0] (Act=7.0)
+Aligning File: mfcc/S0215.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan AC SENT-END  ==  [121 frames] -60.5743 [Ac=-7329.5 LM=0.0] (Act=7.9)
+Aligning File: mfcc/S0515.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan AC SENT-END  ==  [125 frames] -54.6525 [Ac=-6831.6 LM=0.0] (Act=7.3)
+Aligning File: mfcc/S0412.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [140 frames] -62.3763 [Ac=-8732.7 LM=0.0] (Act=10.7)
+Aligning File: mfcc/S0805.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [114 frames] -58.3595 [Ac=-6653.0 LM=0.0] (Act=7.0)
+Aligning File: mfcc/S0522.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [125 frames] -56.3162 [Ac=-7039.5 LM=0.0] (Act=6.2)
+Aligning File: mfcc/S0523.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [147 frames] -57.5662 [Ac=-8462.2 LM=0.0] (Act=7.3)
+Aligning File: mfcc/S0813.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [161 frames] -59.2276 [Ac=-9535.6 LM=0.0] (Act=8.8)
+Aligning File: mfcc/S0922.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan AC SENT-END  ==  [148 frames] -56.5043 [Ac=-8362.6 LM=0.0] (Act=6.4)
+Aligning File: mfcc/S0304.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [125 frames] -56.4358 [Ac=-7054.5 LM=0.0] (Act=7.0)
+Aligning File: mfcc/S0417.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [84 frames] -60.1905 [Ac=-5056.0 LM=0.0] (Act=8.2)
+Aligning File: mfcc/S0604.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka garasi SENT-END  ==  [117 frames] -56.6300 [Ac=-6625.7 LM=0.0] (Act=7.6)
+Aligning File: mfcc/S0802.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka pintu SENT-END  ==  [101 frames] -58.3386 [Ac=-5892.2 LM=0.0] (Act=7.2)
+Aligning File: mfcc/S0716.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END naikkan suhu AC SENT-END  ==  [152 frames] -57.7471 [Ac=-8777.6 LM=0.0] (Act=6.9)
+Aligning File: mfcc/S0921.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu ruang tamu SENT-END  ==  [207 frames] -58.4826 [Ac=-12105.9 LM=0.0] (Act=8.9)
+Aligning File: mfcc/S0519.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [190 frames] -56.5601 [Ac=-10746.4 LM=0.0] (Act=10.2)
+Aligning File: mfcc/S0803.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka tirai SENT-END  ==  [101 frames] -58.8302 [Ac=-5941.8 LM=0.0] (Act=7.8)
+Aligning File: mfcc/S0111.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar tidur SENT-END  ==  [163 frames] -59.3541 [Ac=-9674.7 LM=0.0] (Act=10.6)
+Aligning File: mfcc/S0213.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [138 frames] -61.4169 [Ac=-8475.5 LM=0.0] (Act=11.8)
+Aligning File: mfcc/S0209.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [124 frames] -60.0229 [Ac=-7442.8 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0710.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [128 frames] -55.0741 [Ac=-7049.5 LM=0.0] (Act=8.3)
+Aligning File: mfcc/S0909.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [135 frames] -59.1194 [Ac=-7981.1 LM=0.0] (Act=7.5)
+Aligning File: mfcc/S0708.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup tirai SENT-END  ==  [118 frames] -56.1882 [Ac=-6630.2 LM=0.0] (Act=7.4)
+Aligning File: mfcc/S0117.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [111 frames] -57.7203 [Ac=-6407.0 LM=0.0] (Act=8.4)
+Aligning File: mfcc/S0109.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup garasi SENT-END  ==  [102 frames] -61.3422 [Ac=-6256.9 LM=0.0] (Act=7.7)
+Aligning File: mfcc/S0818.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar tidur SENT-END  ==  [200 frames] -59.2673 [Ac=-11853.5 LM=0.0] (Act=7.6)
+Aligning File: mfcc/S0718.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar tidur SENT-END  ==  [171 frames] -56.8380 [Ac=-9719.3 LM=0.0] (Act=8.6)
+Aligning File: mfcc/S0323.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END turunkan suhu AC SENT-END  ==  [141 frames] -58.5795 [Ac=-8259.7 LM=0.0] (Act=7.0)
+Aligning File: mfcc/S0920.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [176 frames] -60.6076 [Ac=-10666.9 LM=0.0] (Act=8.1)
+Aligning File: mfcc/S0108.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup tirai SENT-END  ==  [85 frames] -62.7424 [Ac=-5333.1 LM=0.0] (Act=8.0)
+Aligning File: mfcc/S0112.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [173 frames] -60.5014 [Ac=-10466.7 LM=0.0] (Act=11.5)
+Aligning File: mfcc/S0305.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [113 frames] -57.5199 [Ac=-6499.8 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0619.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [176 frames] -56.8183 [Ac=-10000.0 LM=0.0] (Act=9.3)
+Aligning File: mfcc/S0917.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END matikan lampu SENT-END  ==  [135 frames] -57.8585 [Ac=-7810.9 LM=0.0] (Act=7.8)
+Aligning File: mfcc/S0701.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [133 frames] -56.4394 [Ac=-7506.4 LM=0.0] (Act=6.6)
+Aligning File: mfcc/S0720.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END matikan lampu dapur SENT-END  ==  [152 frames] -55.7832 [Ac=-8479.0 LM=0.0] (Act=9.7)
+Aligning File: mfcc/S0613.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END nyalakan lampu dapur SENT-END  ==  [157 frames] -56.4602 [Ac=-8864.2 LM=0.0] (Act=9.8)
+Aligning File: mfcc/S0601.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END buka jendela SENT-END  ==  [125 frames] -55.0021 [Ac=-6875.3 LM=0.0] (Act=6.7)
+Aligning File: mfcc/S0919.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu kamar mandi SENT-END  ==  [195 frames] -59.2969 [Ac=-11562.9 LM=0.0] (Act=9.0)
+Aligning File: mfcc/S0612.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END nyalakan lampu kamar mandi SENT-END  ==  [184 frames] -56.3724 [Ac=-10372.5 LM=0.0] (Act=11.0)
+Aligning File: mfcc/S0406.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup pintu SENT-END  ==  [66 frames] -63.4024 [Ac=-4184.6 LM=0.0] (Act=9.2)
+Aligning File: mfcc/S0907.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END kunci pintu SENT-END  ==  [120 frames] -59.8866 [Ac=-7186.4 LM=0.0] (Act=7.3)
+Aligning File: mfcc/S0105.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup jendela SENT-END  ==  [115 frames] -58.2795 [Ac=-6702.1 LM=0.0] (Act=7.0)
+Aligning File: mfcc/S0510.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END nyalakan lampu SENT-END  ==  [116 frames] -56.9191 [Ac=-6602.6 LM=0.0] (Act=9.6)
+Aligning File: mfcc/S0521.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END matikan lampu ruang tamu SENT-END  ==  [184 frames] -57.1223 [Ac=-10510.5 LM=0.0] (Act=12.0)
+Aligning File: mfcc/S0408.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END tutup tirai SENT-END  ==  [73 frames] -64.8867 [Ac=-4736.7 LM=0.0] (Act=7.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
