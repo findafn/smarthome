@@ -1,4 +1,6 @@
 AC	[AC]	a s e sp
+SENT-END    []  sil
+SENT-START  []  sil
 buka	[buka]	b u k a sp
 dapur	[dapur]	d a p u r sp
 garasi	[garasi]	g a r a s i sp
@@ -12,8 +14,6 @@ naikkan	[naikkan] n a i k k a n sp
 nyalakan	[nyalakan]	ny a l a k a n sp
 pintu	[pintu]	p i n t u sp
 ruang	[ruang]	r u a ng sp
-SENT-END    []  sil sp
-SENT-START  []  sil sp
 suhu	[suhu] s u h u sp
 tamu	[tamu]	t a m u sp
 tidur	[tidur]	t i d u r sp
