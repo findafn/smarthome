@@ -204,4 +204,4 @@
 */S0920 matikan lampu dapur
 */S0921 matikan lampu ruang tamu
 */S0922 matikan AC
-*/S0223 turunkan suhu AC
+*/S0923 turunkan suhu AC
