@@ -1,3 +1,3 @@
-$object = JENDELA | PINTU | TIRAI | GARASI;
-$lampu = LAMPU [ KAMAR TIDUR | KAMAR MANDI | DAPUR | RUANG TAMU ];
-( SENT-START ((BUKA|TUTUP) $object | (NYALAKAN|MATIKAN) $lampu | (NAIKKAN|TURUNKAN) SUHU AC | KUNCI PINTU) SENT-END)
+$object = jendela | pintu | tirai | garasi;
+$lampu = lampu [ kamar tidur | kamar mandi | dapur | ruang tamu ];
+( SENT-START ((buka|tutup) $object | (nyalakan|matikan) $lampu | (naikkan|turunkan) suhu AC | kunci pintu) SENT-END)
