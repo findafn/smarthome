@@ -1,0 +1,22 @@
+AC	[AC]	a s e sp
+buka	[buka]	b u k a sp
+dapur	[dapur]	d a p u r sp
+garasi	[garasi]	g a r a s i sp
+jendela	[jendela]	j @ n d e l a sp
+kamar	[kamar]	k a m a r sp
+kunci	[kunci]	k u n c i sp
+lampu	[lampu]	l a m p u sp
+mandi	[mandi]	m a n d i sp
+matikan	[matikan]	m a t i k a n sp
+naikkan	[naikkan] n a i k k a n sp
+nyalakan	[nyalakan]	ny a l a k a n sp
+pintu	[pintu]	p i n t u sp
+ruang	[ruang]	r u a ng sp
+SENT-END    []  sil sp
+SENT-START  []  sil sp
+suhu	[suhu] s u h u sp
+tamu	[tamu]	t a m u sp
+tidur	[tidur]	t i d u r sp
+tirai	[tirai]	t i r a i sp
+turunkan	[turunkan]	t u r u n k a n sp
+tutup	[tutup]	t u t u p sp
