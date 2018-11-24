@@ -1,0 +1,207 @@
+*/S0101 buka jendela
+*/S0102 buka pintu
+*/S0103 buka tirai
+*/S0104 buka garasi
+*/S0105 tutup jendela
+*/S0106 tutup pintu
+*/S0107 kunci pintu
+*/S0108 tutup tirai
+*/S0109 tutup garasi
+*/S0110 nyalakan lampu
+*/S0111 nyalakan lampu kamar tidur
+*/S0112 nyalakan lampu kamar mandi
+*/S0113 nyalakan lampu dapur
+*/S0114 nyalakan lampu ruang tamu
+*/S0115 nyalakan AC
+*/S0116 naikkan suhu AC
+*/S0117 matikan lampu
+*/S0118 matikan lampu kamar tidur
+*/S0119 matikan lampu kamar mandi
+*/S0120 matikan lampu dapur
+*/S0121 matikan lampu ruang tamu
+*/S0122 matikan AC
+*/S0123 turunkan suhu AC
+*/S0201 buka jendela
+*/S0202 buka pintu
+*/S0203 buka tirai
+*/S0204 buka garasi
+*/S0205 tutup jendela
+*/S0206 tutup pintu
+*/S0207 kunci pintu
+*/S0208 tutup tirai
+*/S0209 tutup garasi
+*/S0210 nyalakan lampu
+*/S0211 nyalakan lampu kamar tidur
+*/S0212 nyalakan lampu kamar mandi
+*/S0213 nyalakan lampu dapur
+*/S0214 nyalakan lampu ruang tamu
+*/S0215 nyalakan AC
+*/S0216 naikkan suhu AC
+*/S0217 matikan lampu
+*/S0218 matikan lampu kamar tidur
+*/S0219 matikan lampu kamar mandi
+*/S0220 matikan lampu dapur
+*/S0221 matikan lampu ruang tamu
+*/S0222 matikan AC
+*/S0223 turunkan suhu AC
+*/S0301 buka jendela
+*/S0302 buka pintu
+*/S0303 buka tirai
+*/S0304 buka garasi
+*/S0305 tutup jendela
+*/S0306 tutup pintu
+*/S0307 kunci pintu
+*/S0308 tutup tirai
+*/S0309 tutup garasi
+*/S0310 nyalakan lampu
+*/S0311 nyalakan lampu kamar tidur
+*/S0312 nyalakan lampu kamar mandi
+*/S0313 nyalakan lampu dapur
+*/S0314 nyalakan lampu ruang tamu
+*/S0315 nyalakan AC
+*/S0316 naikkan suhu AC
+*/S0317 matikan lampu
+*/S0318 matikan lampu kamar tidur
+*/S0319 matikan lampu kamar mandi
+*/S0320 matikan lampu dapur
+*/S0321 matikan lampu ruang tamu
+*/S0322 matikan AC
+*/S0323 turunkan suhu AC
+*/S0401 buka jendela
+*/S0402 buka pintu
+*/S0403 buka tirai
+*/S0404 buka garasi
+*/S0405 tutup jendela
+*/S0406 tutup pintu
+*/S0407 kunci pintu
+*/S0408 tutup tirai
+*/S0409 tutup garasi
+*/S0410 nyalakan lampu
+*/S0411 nyalakan lampu kamar tidur
+*/S0412 nyalakan lampu kamar mandi
+*/S0413 nyalakan lampu dapur
+*/S0414 nyalakan lampu ruang tamu
+*/S0415 nyalakan AC
+*/S0416 naikkan suhu AC
+*/S0417 matikan lampu
+*/S0418 matikan lampu kamar tidur
+*/S0419 matikan lampu kamar mandi
+*/S0420 matikan lampu dapur
+*/S0421 matikan lampu ruang tamu
+*/S0422 matikan AC
+*/S0423 turunkan suhu AC
+*/S0501 buka jendela
+*/S0502 buka pintu
+*/S0503 buka tirai
+*/S0504 buka garasi
+*/S0505 tutup jendela
+*/S0506 tutup pintu
+*/S0507 kunci pintu
+*/S0508 tutup tirai
+*/S0509 tutup garasi
+*/S0510 nyalakan lampu
+*/S0511 nyalakan lampu kamar tidur
+*/S0512 nyalakan lampu kamar mandi
+*/S0513 nyalakan lampu dapur
+*/S0514 nyalakan lampu ruang tamu
+*/S0515 nyalakan AC
+*/S0516 naikkan suhu AC
+*/S0517 matikan lampu
+*/S0518 matikan lampu kamar tidur
+*/S0519 matikan lampu kamar mandi
+*/S0520 matikan lampu dapur
+*/S0521 matikan lampu ruang tamu
+*/S0522 matikan AC
+*/S0523 turunkan suhu AC
+*/S0601 buka jendela
+*/S0602 buka pintu
+*/S0603 buka tirai
+*/S0604 buka garasi
+*/S0605 tutup jendela
+*/S0606 tutup pintu
+*/S0607 kunci pintu
+*/S0608 tutup tirai
+*/S0609 tutup garasi
+*/S0610 nyalakan lampu
+*/S0611 nyalakan lampu kamar tidur
+*/S0612 nyalakan lampu kamar mandi
+*/S0613 nyalakan lampu dapur
+*/S0614 nyalakan lampu ruang tamu
+*/S0615 nyalakan AC
+*/S0616 naikkan suhu AC
+*/S0617 matikan lampu
+*/S0618 matikan lampu kamar tidur
+*/S0619 matikan lampu kamar mandi
+*/S0620 matikan lampu dapur
+*/S0621 matikan lampu ruang tamu
+*/S0622 matikan AC
+*/S0623 turunkan suhu AC
+*/S0701 buka jendela
+*/S0702 buka pintu
+*/S0703 buka tirai
+*/S0704 buka garasi
+*/S0705 tutup jendela
+*/S0706 tutup pintu
+*/S0707 kunci pintu
+*/S0708 tutup tirai
+*/S0709 tutup garasi
+*/S0710 nyalakan lampu
+*/S0711 nyalakan lampu kamar tidur
+*/S0712 nyalakan lampu kamar mandi
+*/S0713 nyalakan lampu dapur
+*/S0714 nyalakan lampu ruang tamu
+*/S0715 nyalakan AC
+*/S0716 naikkan suhu AC
+*/S0717 matikan lampu
+*/S0718 matikan lampu kamar tidur
+*/S0719 matikan lampu kamar mandi
+*/S0720 matikan lampu dapur
+*/S0721 matikan lampu ruang tamu
+*/S0722 matikan AC
+*/S0723 turunkan suhu AC
+*/S0801 buka jendela
+*/S0802 buka pintu
+*/S0803 buka tirai
+*/S0804 buka garasi
+*/S0805 tutup jendela
+*/S0806 tutup pintu
+*/S0807 kunci pintu
+*/S0808 tutup tirai
+*/S0809 tutup garasi
+*/S0810 nyalakan lampu
+*/S0811 nyalakan lampu kamar tidur
+*/S0812 nyalakan lampu kamar mandi
+*/S0813 nyalakan lampu dapur
+*/S0814 nyalakan lampu ruang tamu
+*/S0815 nyalakan AC
+*/S0816 naikkan suhu AC
+*/S0817 matikan lampu
+*/S0818 matikan lampu kamar tidur
+*/S0819 matikan lampu kamar mandi
+*/S0820 matikan lampu dapur
+*/S0821 matikan lampu ruang tamu
+*/S0822 matikan AC
+*/S0823 turunkan suhu AC
+*/S0901 buka jendela
+*/S0902 buka pintu
+*/S0903 buka tirai
+*/S0904 buka garasi
+*/S0905 tutup jendela
+*/S0906 tutup pintu
+*/S0907 kunci pintu
+*/S0908 tutup tirai
+*/S0909 tutup garasi
+*/S0910 nyalakan lampu
+*/S0911 nyalakan lampu kamar tidur
+*/S0912 nyalakan lampu kamar mandi
+*/S0913 nyalakan lampu dapur
+*/S0914 nyalakan lampu ruang tamu
+*/S0915 nyalakan AC
+*/S0916 naikkan suhu AC
+*/S0917 matikan lampu
+*/S0918 matikan lampu kamar tidur
+*/S0919 matikan lampu kamar mandi
+*/S0920 matikan lampu dapur
+*/S0921 matikan lampu ruang tamu
+*/S0922 matikan AC
+*/S0223 turunkan suhu AC
