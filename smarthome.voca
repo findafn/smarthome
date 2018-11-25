@@ -4,27 +4,50 @@
 % SENT_END
 </s>	sil
 
-% VERB
-matikan	m a t i k a n
-naikkan	n a i k k a n
-nyalakan	ny a l a k a n
-turunkan	t u r u n k a n
+% OPENABLE_VERB
 buka	b u k a
-kunci	k u n c i
 tutup	t u t u p
 
-% NOUN
-AC	a s e
-buka	[buka]	b u k a
-dapur	d a p u r
+% LOCKABLE_VERB
+kunci	k u n c i
+
+% SWITCHABLE_VERB
+nyalakan	ny a l a k a n
+matikan	m a t i k a n
+
+% ADJUSTABLE_VERB
+naikkan	n a i k k a n
+turunkan	t u r u n k a n
+
+% OPENABLE
 garasi	g a r a s i
-jendela	j @ n d e l a
-kamar	k a m a r
-lampu	l a m p u
-mandi	m a n d i
-pintu	p i n t u
-ruang	r u a ng
-suhu s u h u
-tamu	t a m u
-tidur	t i d u r
 tirai	t i r a i
+jendela	j @ n d e l a
+
+% LOCKABLE
+pintu	p i n t u
+
+% LAMP
+lampu	l a m p u
+
+% AC
+AC	a s e
+
+% KAMAR
+kamar	k a m a r
+
+% KAMAR_TYPE
+tidur	t i d u r
+mandi	m a n d i
+
+% RUANG
+ruang	r u a ng
+
+% RUANG_TYPE
+tamu	t a m u
+
+% KITCHEN
+dapur	d a p u r
+
+% SUHU
+suhu s u h u
