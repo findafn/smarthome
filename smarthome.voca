@@ -1,0 +1,30 @@
+% SENT_START
+<s>	sil
+
+% SENT_END
+</s>	sil
+
+% VERB
+matikan	m a t i k a n
+naikkan	n a i k k a n
+nyalakan	ny a l a k a n
+turunkan	t u r u n k a n
+buka	b u k a
+kunci	k u n c i
+tutup	t u t u p
+
+% NOUN
+AC	a s e
+buka	[buka]	b u k a
+dapur	d a p u r
+garasi	g a r a s i
+jendela	j @ n d e l a
+kamar	k a m a r
+lampu	l a m p u
+mandi	m a n d i
+pintu	p i n t u
+ruang	r u a ng
+suhu s u h u
+tamu	t a m u
+tidur	t i d u r
+tirai	t i r a i
