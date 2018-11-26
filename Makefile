@@ -24,3 +24,12 @@ train:
 	HLEd -A -D -T 1 -n data/triphones1 -l '*' -i data/wintri.mlf mktri.led aligned.mlf
 	julia mktrihed.jl data/monophones1 data/triphones1 mktri.hed
 	# on going step 9
+	HHEd -A -D -T 1 -H hmm9/macros -H hmm9/hmmdefs -M hmm10 mktri.hed data/monophones1
+	HERest  -A -D -T 1 -C config3 -I data/wintri.mlf -t 250.0 150.0 3000.0 -S scp/train.scp -H hmm10/macros -H hmm10/hmmdefs -M hmm11 data/triphones1
+	HERest  -A -D -T 1 -C config3 -I data/wintri.mlf -t 250.0 150.0 3000.0 -s stats -S scp/train.scp -H hmm11/macros -H hmm11/hmmdefs -M hmm12 data/triphones1
+	HDMan -A -D -T 1 -b sp -n fulllist0 -g maketriphones.ded -l flog dict-tri dictionary.txt
+	cat tree1.hed > tree.hed
+	julia mkclscript.jl data/monophones0 tree.hed
+	HHEd -A -D -T 1 -H hmm12/macros -H hmm12/hmmdefs -M hmm13 tree.hed data/triphones1
+	HERest -A -D -T 1 -T 1 -C config3 -I data/wintri.mlf -t 250.0 150.0 3000.0 -S scp/train.scp -H hmm13/macros -H hmm13/hmmdefs -M hmm14 tiedlist
+	HERest -A -D -T 1 -T 1 -C config3 -I data/wintri.mlf -t 250.0 150.0 3000.0 -S scp/train.scp -H hmm14/macros -H hmm14/hmmdefs -M hmm15 tiedlist
