@@ -17,7 +17,7 @@
 #
 ###############################################################################
 if VERSION < v"1.0"  
-   @warn("the VoxForge scripts require version 1.0 and above")
+   warn("the VoxForge scripts require version 1.0 and above")
 end
  
 function mktrihed(monophones, triphones, mktri) 
